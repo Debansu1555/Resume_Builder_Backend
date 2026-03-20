@@ -1,0 +1,13 @@
+Flask
+flask_sqlalchemy
+pymysql
+flask-migrate
+reportlab
+PyPDF2
+Flask-Mail
+twilio
+email-validator
+python-dotenv
+marshmallow
+flask-cors
+gunicorn
