@@ -1,3 +1,43 @@
+📁 Project Structure
+resume_builder/
+│
+├── app.py                  # Main entry point (Flask app)
+├── config.py               # Database & app configuration
+├── requirements.txt        # All dependencies
+├── README.md               # Project documentation
+│
+├── models/                 # Database models
+│   ├── __init__.py
+│   ├── resume_model.py
+│   ├── activity_model.py
+│   ├── share_model.py
+│
+├── routes/                 # API routes
+│   ├── __init__.py
+│   ├── resume_routes.py
+│   ├── admin_routes.py
+│
+├── services/               # Business logic
+│   ├── __init__.py
+│   ├── pdf_service.py
+│   ├── email_service.py
+│   ├── whatsapp_service.py
+│
+├── utils/                  # Helper functions
+│   ├── __init__.py
+│   ├── analytics.py
+│   ├── validator.py
+│   ├── time_control.py
+│
+├── database/               # DB related files
+│   └── db.py
+│
+├── static/                 # Generated files (PDFs)
+│   └── resumes/
+│
+└── migrations/ (optional)  # For DB migration (if using Flask-Migrate)
+
+
 # Resume_Builder_Backend
 Dynamic Resume Builder with PDF generation, time-controlled access, analytics, and sharing via Email &amp; WhatsApp (Flask Backend).
 # 🚀 Dynamic Resume Builder (Backend - Flask)
